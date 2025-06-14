@@ -1,0 +1,12 @@
+@import './constants.css';
+@import './media-queries.css';
+
+/* CSS reset
+   Sets a default for all elements in the CSS.
+   This ignores browser defaults to ensure a consistent baseline across different browsers.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
