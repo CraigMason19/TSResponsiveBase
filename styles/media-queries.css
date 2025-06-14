@@ -1,0 +1,13 @@
+@media (max-width: 768px) 
+{ 
+    /* Styles for iPad */ 
+}
+
+@media (max-width: 820px) 
+{ 
+    /* Styles for iPad Air */ 
+}
+@media (min-width: 1024px) 
+{ 
+    /* Styles for desktop */ 
+}
