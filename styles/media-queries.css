@@ -1,13 +1,20 @@
 @media (max-width: 768px) 
 { 
     /* Styles for iPad */ 
+    p { 
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 820px) 
 { 
     /* Styles for iPad Air */ 
 }
+
 @media (min-width: 1024px) 
 { 
     /* Styles for desktop */ 
+    p { 
+        font-size: 2rem;
+    }
 }
