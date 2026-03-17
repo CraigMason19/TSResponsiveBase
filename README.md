@@ -3,6 +3,8 @@ A foundational Deno project with responsive web design, providing a flexible bas
 
 https://craigmason19.github.io/TSResponsiveBase/
 
-A work in progress project to learn media queries
+A work in progress project to learn / play around with media queries
 
-tsc -w
+# Dev  
+- Run `tsc -w` to watch for file changes.
+- Start index.html in a live server
