@@ -3,7 +3,10 @@
 document.addEventListener('keydown', function (event) {
     if (event.key === 'd' || event.key === 'D') {
         console.log("Debug mode enabled!");
-        document.body.classList.toggle('show-borders');
+        document.body.classList.toggle('show-debug-border');
+        document.querySelectorAll('*').forEach(el => {
+            el.classList.toggle('show-borders');
+        });
     }
 });
 document.addEventListener("DOMContentLoaded", () => {

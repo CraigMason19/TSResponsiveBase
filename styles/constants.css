@@ -1,5 +1,6 @@
 :root {
     --color-theme: #333;
     --color-background: #f0f0f0;
+    --debug-color: darkcyan;
     --debug-outline: 2px solid darkcyan;
 }

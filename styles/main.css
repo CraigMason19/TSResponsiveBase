@@ -11,9 +11,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+.show-debug-border {
+    background-color: var(--debug-color);
+}
+
 .show-borders {
-	outline: 1px solid Black;
-    background-color: aquamarine;
+	outline: var(--debug-outline);
 }
 
 body {
