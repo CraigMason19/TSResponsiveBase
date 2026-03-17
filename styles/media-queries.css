@@ -1,19 +1,28 @@
+/* Styles for iPad */ 
 @media (max-width: 768px) 
 { 
-    /* Styles for iPad */ 
+    .screen-size
+    {
+        flex-direction: column;
+    }
     p { 
         font-size: 1rem;
     }
 }
 
+/* Styles for iPad Air */ 
 @media (max-width: 820px) 
 { 
-    /* Styles for iPad Air */ 
+
 }
 
+/* Styles for desktop */ 
 @media (min-width: 1024px) 
 { 
-    /* Styles for desktop */ 
+    .screen-size
+    {
+        flex-direction: row;
+    }
     p { 
         font-size: 2rem;
     }
